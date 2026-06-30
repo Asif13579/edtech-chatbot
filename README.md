@@ -1,13 +1,13 @@
 # EduBot – EdTech Customer Support Chatbot
 
-AI-powered customer support chatbot for **LearnSphere** EdTech platform, built with FastAPI + Groq (Llama 3.3 70B).
+AI-powered customer support chatbot for **LearnSphere** EdTech platform, built with FastAPI + Gemini (Llama 3.3 70B).
 
 ## Features
 - 💬 Conversational AI chat with full message history
 - 📚 Course catalog & pricing information
 - 💳 Payment methods, EMI, and refund policy handling
 - 🎓 Certificate and enrollment queries
-- 🚀 Powered by Llama 3.3 70B via Groq API
+- 🚀 Powered by Llama 3.3 70B via Gemini API
 - 🌐 Polished dark-themed UI served from FastAPI
 
 ## Project Structure
@@ -27,21 +27,21 @@ edtech-chatbot/
 pip install -r requirements.txt
 ```
 
-### 2. Set your Groq API key
+### 2. Set your Gemini API key
 ```bash
 # Copy the example file
 cp .env.example .env
 
 # Edit .env and add your key
-GROQ_API_KEY=your_groq_api_key_here
+GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
 Or export directly:
 ```bash
-export GROQ_API_KEY=your_groq_api_key_here
+export GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-Get a free API key at: https://console.groq.com
+Get a free API key at: https://console.goggle.com
 
 ### 3. Run the server
 ```bash
@@ -78,6 +78,6 @@ Visit: **http://localhost:8000**
 
 ## Tech Stack
 - **Backend**: FastAPI + Uvicorn
-- **AI Model**: Llama 3.3 70B via Groq API
+- **AI Model**: Llama 3.3 70B via Gemini API
 - **Frontend**: Vanilla HTML/CSS/JS (no build step)
 - **Fonts**: Sora + JetBrains Mono
